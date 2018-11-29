@@ -273,7 +273,7 @@
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="onlineCookie" enabled="true">
           <stringProp name="TestPlan.comments">onlineCookie</stringProp>
-          <stringProp name="filename">/Users/jc/Documents/ServerPerformance/lofter/Label2HomePage/data/onlineUrsToken.csv</stringProp>
+          <stringProp name="filename">/home/qafunc/.jenkins/workspace/lofterHomePage/Label2HomePage/data/onlineUrsToken.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">URSMobToken,URSMobID</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -286,7 +286,7 @@
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="domainId" enabled="true">
           <stringProp name="TestPlan.comments">domainId</stringProp>
-          <stringProp name="filename">/Users/jc/Documents/ServerPerformance/lofter/Label2HomePage/data/onlineDomainId.csv</stringProp>
+          <stringProp name="filename">/home/qafunc/.jenkins/workspace/lofterHomePage/Label2HomePage/data/onlineDomainId.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">domainId</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
