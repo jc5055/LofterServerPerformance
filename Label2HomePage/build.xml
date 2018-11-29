@@ -10,7 +10,7 @@
     <property name="jmetr.result.jtl.dir" value="./result/jtl"/>
     <!--<property name="jmeter.result.jtl.dir" value="/Users/jc/.jenkins/workspace/helloWorld/test_token/jtl" /> -->
     <!-- jmeter生成html格式的结果报告的路径-->
-    <property name="jmeter.result.jtl.dir" value="./result/html"/>
+    <property name="jmeter.result.html.dir" value="./result/html"/>
     <!-- <property name="jmeter.result.html.dir" value="/Users/jc/.jenkins/workspace/helloWorld/test_token/html" /> -->
     <!-- 生成的报告的前缀-->
     <property name="ReportName" value="TestReport" />
