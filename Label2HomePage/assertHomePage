@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="97" it="0" lt="97" ct="28" ts="1543483388852" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="3141" sby="528" sc="1" ec="1" ng="1" na="1" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:08 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=237223772FF718422670120D4ADDA44F.hzayq-lofter72.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/w/Z3YEBA4cAg==; expires=Fri, 29-Nov-19 09:23:08 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: c5e43fb20973a663fcbbe1b99737e010
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:509682960,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1425878709569,1375862763684,1370406297616,1444460589504,1439373392531,1370404026996,1442207751226,1370406175120,1370404026995,1370406202794,1454147603663,1370404026997&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1442207751226,1425878709569,1370406202794,1439373392531,1370404026996,1375862763684,1370406297616,1370404026997,1370406175120,1370404026995,1454147603663,1444460589504]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;tianxiaorouer.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:14,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOC8zQkRGU0lDYXFCWHNVRzBFbVRrTWxMZXJGMDB5bVFLWT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;木推瓜&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:509682960,&quot;blogName&quot;:&quot;tianxiaorouer&quot;,&quot;blogNickName&quot;:&quot;田小肉儿&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/SmNVcjBVYTM2UXliWkhSL1ZKSndEK0pwbDRoMFdzemlMdEZqSCtMendlSnRVS0RaSFVJUDVRPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;约稿请私信，欢迎画圈朋友勾搭～&quot;,&quot;blogCreateTime&quot;:1473993648644,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1540499061589,&quot;postModTime&quot;:1543412268612,&quot;postAddTime&quot;:1543412268612,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:872382180000,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:405056,&quot;blogId&quot;:509682960,&quot;domainId&quot;:1370406202794,&quot;authName&quot;:&quot;LOFTER插画师&quot;,&quot;createTime&quot;:1505690429740,&quot;claimer&quot;:509682960,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1517537482675,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;天津&quot;,&quot;city&quot;:&quot;天津市&quot;,&quot;reason&quot;:&quot;热爱水彩插画，希望得到lofter支持，可以走更远。&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;田小肉儿&quot;,&quot;name&quot;:&quot;微博/涂鸦王国&quot;}],&quot;sync&quot;:1,&quot;recommendCount&quot;:0,&quot;likedCount&quot;:932,&quot;postCount&quot;:127,&quot;followCount&quot;:224,&quot;regTime&quot;:1473993648653},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:509682960,&quot;publicPostCount&quot;:189,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:1623,&quot;likedCount&quot;:1559,&quot;likingCount&quot;:472,&quot;followingCount&quot;:315,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://tianxiaorouer.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=tianxiaorouer.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=509682960</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1543483389270" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="2626" sby="619" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:09 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=3807BBC4D9D868DC0EA68BEB35C23116.hzabj-lofter-tomcat-8.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/06w3X6BAGMAg==; expires=Fri, 29-Nov-19 09:23:09 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: a78de43dd1d4bf19ef9b23bea21d40e1
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 129
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:527446347,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1370406130284,1433928321361,1370404026995,1370406297616,1425878709569,1370406202794&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1370406130284,1425878709569,1433928321361,1370406202794,1370406297616,1370404026995]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;zhujiuyoudianxian.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:2,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOCtVQWpmbU9TOThlOWR0ZTlXQlU1eWZJdG1jdERmNi9XRT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;Mazily&quot;,&quot;customBlogCover&quot;:&quot;http://imglf5.nosdn0.126.net/img/b2pORnFPODM3LzRDT1hXdTVta3p3T0NRVGdCbEhUSzhHOWczUnAzUFEzb1NvT25QRS80VllnPT0.jpg&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:527446347,&quot;blogName&quot;:&quot;zhujiuyoudianxian&quot;,&quot;blogNickName&quot;:&quot;怎么睡都还是很困&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/b2pORnFPODM3LzRWVEo4M2lRQk0wekNHditnM3Rhc3NzU2pGeUpZaGMrdkQ4eVRmMlQrVTB3PT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;每天都在为我宝掰的美貌流泪罢辽&quot;,&quot;blogCreateTime&quot;:1525061548550,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543302909799,&quot;postModTime&quot;:1543332090524,&quot;postAddTime&quot;:1543332090524,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:915449820000,&quot;novisible&quot;:false,&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:527446347,&quot;publicPostCount&quot;:22,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:65,&quot;likedCount&quot;:285,&quot;likingCount&quot;:10,&quot;followingCount&quot;:16,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://zhujiuyoudianxian.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=237223772FF718422670120D4ADDA44F.hzayq-lofter72.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=zhujiuyoudianxian.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=527446347</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="89" it="0" lt="89" ct="21" ts="1543483389399" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="3168" sby="522" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:09 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=2F0A3837BD6824CFCB3BABA893A7379D.hzabj-lofter-new5.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/1KG3YNBA0DAg==; expires=Fri, 29-Nov-19 09:23:09 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 5b10239e114d5b2780f4d18211732b0d
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 119
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:687383,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;msgTitle&quot;:&quot;信兒&quot;,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1425878709569,1370406297616,1370404026996,1370406202794,1370406175120&quot;,&quot;themeId&quot;:110002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:20,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;customPageSeq&quot;:&quot;1031022,1031023,1031024,1069035,1035017&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:9,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1425878709569,1370406202794,1370404026996,1370406297616,1370406175120]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;david-xiao.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:14,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOC8zQkRGU0lDYXFCWHNVRzBFbVRrTWxMZXJGMDB5bVFLWT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;木推瓜&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:687383,&quot;blogName&quot;:&quot;david-xiao&quot;,&quot;blogNickName&quot;:&quot;大维&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/ZXNaNzNOOTdBYk1selMvZHZLZUw2MHZYaHJMdEtZQ0lnOWcxTVBFK3lVak5EUjdoL00zMW9BPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;旅行攝影師◎撰稿人\r\n©所有圖片均系原創，未經許可不得以任何方式使用&quot;,&quot;blogCreateTime&quot;:1336379112513,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543298781736,&quot;postModTime&quot;:1543296583610,&quot;postAddTime&quot;:1543280226999,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:true,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:true,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:559001,&quot;blogId&quot;:687383,&quot;domainId&quot;:1370404026996,&quot;authName&quot;:&quot;LOFTER风光摄影师&quot;,&quot;createTime&quot;:1535497596276,&quot;claimer&quot;:687383,&quot;verifier&quot;:524644248,&quot;updateTime&quot;:1536229077585,&quot;content&quot;:{&quot;gender&quot;:1,&quot;pro&quot;:&quot;广东&quot;,&quot;city&quot;:&quot;广州市&quot;,&quot;reason&quot;:&quot;&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:1,&quot;recommendCount&quot;:156,&quot;likedCount&quot;:98080,&quot;postCount&quot;:249,&quot;followCount&quot;:193176,&quot;regTime&quot;:1336379112521},&quot;flag&quot;:0},{&quot;id&quot;:18001,&quot;blogId&quot;:687383,&quot;domainId&quot;:1370406297616,&quot;authName&quot;:&quot;LOFTER旅行家&quot;,&quot;createTime&quot;:1468206569504,&quot;claimer&quot;:0,&quot;verifier&quot;:0,&quot;updateTime&quot;:0,&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:687383,&quot;publicPostCount&quot;:258,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:195798,&quot;likedCount&quot;:104201,&quot;likingCount&quot;:4940,&quot;followingCount&quot;:907,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://david-xiao.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=david-xiao.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=687383</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1543483389590" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="3620" sby="616" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:09 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=47C8D9009333FD910D161702663483AD.hzayq-lofter26.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/0uaXX8BAZqAg==; expires=Fri, 29-Nov-19 09:23:09 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 44caaa3479f9c5d01167025b8a3bde8a
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 119
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:4366572,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1425878709569,1370406297616,1370404026996,1370406202794,1370404026997&quot;,&quot;themeId&quot;:119002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;[{\&quot;type\&quot;:\&quot;group1\&quot;,\&quot;name\&quot;:\&quot;\&quot;,\&quot;value\&quot;:\&quot;内页内容宽度500px#内页内容宽度500px|内页内容宽度600px|内页内容宽度700px|内页内容宽度800px\&quot;}]&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;customPageSeq&quot;:&quot;189656873,189159331,189159268,190046205,203707102,189159269,190067152,190067153,190873105,193061136&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1425878709569,1370406202794,1370404026996,1370406297616,1370404026997]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;akaicomet.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;collectionCount&quot;:1,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:11,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhsRHlKY3dYcDZsSjV2OTRISGFnQkR0K25qcFNUeFRMZz0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;韩一杰&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:4366572,&quot;blogName&quot;:&quot;akaicomet&quot;,&quot;blogNickName&quot;:&quot;┍赤い彗星╃&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/c3FpbDV4L3JKQjlPdldFcmZYMUx4bFM2YVlCTkVTVVJEWEwvcnFoTUdNanZGbXFQK2JFeWlBPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;&quot;,&quot;blogCreateTime&quot;:1405241946593,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543324855216,&quot;postModTime&quot;:1543324513236,&quot;postAddTime&quot;:1543307265429,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:true,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:true,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:405006,&quot;blogId&quot;:4366572,&quot;domainId&quot;:1370404026996,&quot;authName&quot;:&quot;LOFTER风光摄影师&quot;,&quot;createTime&quot;:1512715034880,&quot;claimer&quot;:4366572,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1517537456330,&quot;content&quot;:{&quot;gender&quot;:1,&quot;pro&quot;:&quot;上海&quot;,&quot;city&quot;:&quot;上海市&quot;,&quot;reason&quot;:&quot;&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:73,&quot;likedCount&quot;:18105,&quot;postCount&quot;:291,&quot;followCount&quot;:6148,&quot;regTime&quot;:1405241946601},&quot;flag&quot;:0},{&quot;id&quot;:313003,&quot;blogId&quot;:4366572,&quot;domainId&quot;:1370406297616,&quot;authName&quot;:&quot;LOFTER旅行家&quot;,&quot;createTime&quot;:1494031722951,&quot;claimer&quot;:4366572,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1501576922665,&quot;content&quot;:{&quot;gender&quot;:1,&quot;pro&quot;:&quot;上海&quot;,&quot;city&quot;:&quot;上海市&quot;,&quot;reason&quot;:&quot;热爱旅行，途中经常拍摄风光，建筑，人文等图片。&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:67,&quot;likedCount&quot;:13328,&quot;postCount&quot;:306,&quot;followCount&quot;:3056,&quot;regTime&quot;:1405241946601},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:4366572,&quot;publicPostCount&quot;:293,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:14835,&quot;likedCount&quot;:30709,&quot;likingCount&quot;:2668,&quot;followingCount&quot;:410,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://akaicomet.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=3807BBC4D9D868DC0EA68BEB35C23116.hzabj-lofter-tomcat-8.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=akaicomet.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=4366572</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="52" ct="0" ts="1543483389776" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="2683" sby="613" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:09 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=CF41CDE0F19B1281391E1E3B4733680B.hzayq-lofter26.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/06/XYCBAAfAg==; expires=Fri, 29-Nov-19 09:23:09 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 55045eb3ea9bd7fd2b0531daa427af9d
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 120
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:526081698,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1370406130284,1454147603663,1370404026995,1370406297616,1430907486999,1444460589504,1425878709569,1370404026996,1370406175120,1370406202794,1442207751226&quot;,&quot;themeId&quot;:126001,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1370406130284,1430907486999,1442207751226,1425878709569,1370406202794,1370404026996,1370406297616,1370404026995,1370406175120,1454147603663,1444460589504]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;love7796.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;collectionCount&quot;:10,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:9,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODlRYkFCYXlzVGNVdW94dHBOV25YL0JFUmhjdUwxMTVyWT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;陈大军&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:526081698,&quot;blogName&quot;:&quot;love7796&quot;,&quot;blogNickName&quot;:&quot;江枫渔火&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/N2ZvMzg5NzVpSTJRejhMKzd1OVJEMFhoOGNYRUlMK2ZSR2p1QW8yU29iTzJMZVNtakEvSVRRPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;我叫霜云 很高兴认识你\n❤️❤️❤️❤️❤️❤️&quot;,&quot;blogCreateTime&quot;:1521350383038,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543443316717,&quot;postModTime&quot;:1543481565514,&quot;postAddTime&quot;:1543478628063,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:526081698,&quot;publicPostCount&quot;:91,&quot;privatePostCount&quot;:3,&quot;followedCount&quot;:252,&quot;likedCount&quot;:4423,&quot;likingCount&quot;:6333,&quot;followingCount&quot;:147,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://love7796.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=2F0A3837BD6824CFCB3BABA893A7379D.hzabj-lofter-new5.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=love7796.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=526081698</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1543483389854" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="3303" sby="612" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:09 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=C2D67CE8B590B530DB13FC82BCA77A64.hzayq-lofter57.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/06w3X6BAGlAg==; expires=Fri, 29-Nov-19 09:23:09 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 09138c5ed89bf5310fdea1d15dc77d30
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 122
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:509353143,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1444460589504,1370406175120,1370406202794,1370404026997&quot;,&quot;themeId&quot;:120001,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;customPageSeq&quot;:&quot;212733124,212733120,212733121,212733122,212733123&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:9,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1370406202794,1370404026997,1370406175120,1444460589504]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;xisangsang.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:1,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhUeXBoVzByOGRGV3ZsOFFmL29oQ3hRa3N3REhFc29jVT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;LOFTER&quot;,&quot;customBlogCover&quot;:&quot;http://imglf4.nosdn0.126.net/img/WFlIbWVrRGhtUWpxTWwzYkIyaHNWQjVXeDhMTzFoZEVQemQxV1pidWdUQVRzMVlXRmIvejRnPT0.jpeg&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:509353143,&quot;blogName&quot;:&quot;xisangsang&quot;,&quot;blogNickName&quot;:&quot;西桑桑&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/WFlIbWVrRGhtUWpsdWd0dkVMNjdTejROM0pqK0hmWlkrdHhNV2FDL2x2bVFvNVd5a1FJRFh3PT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;12月开始接新๑企鹅：2956978435๑主接排版，可接周边、宣图、（封设暂不约了）๑约稿详情请翻18年1月份文章&quot;,&quot;blogCreateTime&quot;:1473160448104,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1541816325307,&quot;postModTime&quot;:1543239520830,&quot;postAddTime&quot;:1543239520830,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:true,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:394047,&quot;blogId&quot;:509353143,&quot;domainId&quot;:1370404026997,&quot;authName&quot;:&quot;LOFTER平面设计师&quot;,&quot;createTime&quot;:1513737649015,&quot;claimer&quot;:509353143,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1516258206022,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;浙江&quot;,&quot;city&quot;:&quot;宁波市&quot;,&quot;reason&quot;:&quot;虽然并不是设计专业，但因为热爱设计不断学习，平时也接一些设计稿子锻炼水平，希望通过不断的练习能有进步&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:10,&quot;likedCount&quot;:1235,&quot;postCount&quot;:157,&quot;followCount&quot;:399,&quot;regTime&quot;:1473160448115},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;homePageUrl&quot;:&quot;http://xisangsang.lofter.com&quot;,&quot;blogStat&quot;:{&quot;blogId&quot;:509353143,&quot;publicPostCount&quot;:260,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:2669,&quot;likedCount&quot;:1985,&quot;likingCount&quot;:47,&quot;followingCount&quot;:24,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0}},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=47C8D9009333FD910D161702663483AD.hzayq-lofter26.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=xisangsang.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=509353143</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1543483390027" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="2846" sby="608" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:10 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=8492F7D9D8ED04EB85ECC0ED2F41411F.hzabj-lofter-new11.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/5Cf3YFA/tXAg==; expires=Fri, 29-Nov-19 09:23:10 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 5ffb0103cec7171e17c5713985c02219
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 118
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:4315152,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1375871332811&quot;,&quot;themeId&quot;:121002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1375871332811]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;1011lulu.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:1,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhUeXBoVzByOGRGV3ZsOFFmL29oQ3hRa3N3REhFc29jVT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;LOFTER&quot;,&quot;customBlogCover&quot;:&quot;http://imglf5.nosdn0.126.net/img/STlMSHN1VGFTNnpkekFnYnZPWVducnFrS3NQQmwya3l5ZU03dXIyQ1FJamZGdG1ybTJPMEZRPT0.jpeg&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:4315152,&quot;blogName&quot;:&quot;1011lulu&quot;,&quot;blogNickName&quot;:&quot;西窗&quot;,&quot;bigAvaImg&quot;:&quot;http://imglf1.ph.126.net/Y2IChEZB2ItmBrxIH3NBrQ==/6631381126518230650.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;吃掉黑夜的漫长&quot;,&quot;blogCreateTime&quot;:1404563120633,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543437805090,&quot;postModTime&quot;:1543405934968,&quot;postAddTime&quot;:1543405934968,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:352050,&quot;blogId&quot;:4315152,&quot;domainId&quot;:1370404026995,&quot;authName&quot;:&quot;LOFTER美食家&quot;,&quot;createTime&quot;:1503885238712,&quot;claimer&quot;:4315152,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1508828177432,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;福建&quot;,&quot;city&quot;:&quot;福州市&quot;,&quot;reason&quot;:&quot;4年坚持早餐不重样&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:18,&quot;likedCount&quot;:2137,&quot;postCount&quot;:285,&quot;followCount&quot;:796,&quot;regTime&quot;:1404563120646},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:4315152,&quot;publicPostCount&quot;:657,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:6424,&quot;likedCount&quot;:7113,&quot;likingCount&quot;:461,&quot;followingCount&quot;:230,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://1011lulu.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=CF41CDE0F19B1281391E1E3B4733680B.hzayq-lofter26.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=1011lulu.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=4315152</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="74" ct="0" ts="1543483390228" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="2594" sby="614" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:10 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=13041601C2C6508B1257CE48CDA796A0.hzayq-lofter28.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/4/Z3YEBA5+Ag==; expires=Fri, 29-Nov-19 09:23:10 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 4428c378f57288b12ce2aed9a99a8ab5
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 124
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:523169751,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1370404026995,1433928321361,1425878709569,1375862763684,1370404026997&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1425878709569,1433928321361,1375862763684,1370404026997,1370404026995]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;mimiyaner688.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:523169751,&quot;blogName&quot;:&quot;mimiyaner688&quot;,&quot;blogNickName&quot;:&quot;Joke_眯眯眼儿&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/SzhRS1hqMVRpZzc3MjdCUVZYUy8reG9mbkVIQ2NldWpVd2cxOWdCSk5oSitvSU42VytIazFRPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;全平台同名 比芯❤️&quot;,&quot;blogCreateTime&quot;:1512408040659,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543201046811,&quot;postModTime&quot;:1543416115027,&quot;postAddTime&quot;:1543416115027,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:386016,&quot;blogId&quot;:523169751,&quot;domainId&quot;:1433928321361,&quot;authName&quot;:&quot;LOFTER美妆达人&quot;,&quot;createTime&quot;:1513650987572,&quot;claimer&quot;:487195169,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1514273462362,&quot;content&quot;:{&quot;gender&quot;:0,&quot;sync&quot;:0,&quot;recommendCount&quot;:3,&quot;likedCount&quot;:36,&quot;postCount&quot;:13,&quot;followCount&quot;:3,&quot;regTime&quot;:1512408040682,&quot;ext&quot;:&quot;{\&quot;source\&quot;:-2}&quot;},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:523169751,&quot;publicPostCount&quot;:28,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:1059,&quot;likedCount&quot;:670,&quot;likingCount&quot;:1,&quot;followingCount&quot;:12,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://mimiyaner688.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=C2D67CE8B590B530DB13FC82BCA77A64.hzayq-lofter57.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=mimiyaner688.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=523169751</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="56" ct="0" ts="1543483390375" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="2729" sby="621" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:10 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=308E5EEBC1713FB548BC12AADD881BA9.hzabj-lofter-tomcat-1.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/5FJ3YHBAkpAg==; expires=Fri, 29-Nov-19 09:23:10 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 4620fb1d6308fd6fbcebf26441a13827
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 127
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:527747347,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1370406297616,1370406202794,1440842057759,1375862763684,1370406130284,1370406175120&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1440842057759,1370406130284,1370406202794,1370406297616,1375862763684,1370406175120]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;lizafternoontea.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;collectionCount&quot;:3,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:1,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhUeXBoVzByOGRGV3ZsOFFmL29oQ3hRa3N3REhFc29jVT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;LOFTER&quot;,&quot;customBlogCover&quot;:&quot;http://imglf6.nosdn0.126.net/img/OEh0QnBXY3JaWVVWczUrRXY1TmsyaWdPUXlWRDhLYitOT2hlQVdicWZPekpDLzVCUzNuVi93PT0.jpeg&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:527747347,&quot;blogName&quot;:&quot;lizafternoontea&quot;,&quot;blogNickName&quot;:&quot;Liz Wu 奔跑的栗子&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/OEh0QnBXY3JaWVhxR2RqVDhwNCsvelErcDJNQ1ltUFlKd1FZdEJMTWtMOWJnZTlXejZMdjFBPT0.jpg?imageView&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;Better to remain silent and be thought a fool, than to speak and remove all doubt.&quot;,&quot;blogCreateTime&quot;:1525850875798,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543121087432,&quot;postModTime&quot;:1543473061124,&quot;postAddTime&quot;:1543473061124,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:527747347,&quot;publicPostCount&quot;:91,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:13,&quot;likedCount&quot;:113,&quot;likingCount&quot;:199,&quot;followingCount&quot;:90,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://lizafternoontea.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=8492F7D9D8ED04EB85ECC0ED2F41411F.hzabj-lofter-new11.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=lizafternoontea.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=527747347</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="118" it="0" lt="118" ct="0" ts="1543483390591" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="2951" sby="610" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:10 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=B171521E56D684AE9C4CE47064A9D894.hzabj-lofter-tomcat-1.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/4uaXX8BAaHAg==; expires=Fri, 29-Nov-19 09:23:10 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 17fbed2dd6a66073cf1bb07897ca80c8
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 120
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:502488942,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1375862763684,1440842057759&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdsRank&quot;:&quot;1375862763684,1440842057759,1425878709569,1430907486999,1433928321361,1370406130284,1370404026996,1370406297616,1444460589504,1370406175120,1370404026995,1442207751226,1370406202794,1454147603663,1439373392531&quot;,&quot;interestDomainIdSet&quot;:[1440842057759,1375862763684]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;qingxu16.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:13,&quot;url&quot;:&quot;http://imglf2.nosdn0.126.net/img/bTlyMzM1WGFDODlOV2FGUFZSa016TGhaOU5PVEZYaFhkRHJPTjdlRWNoYz0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;vind&quot;,&quot;customBlogCover&quot;:&quot;http://imglf0.ph.126.net/LAzsX4Dul9fXvRqWw6HPcQ==/1993687260144539169.jpg&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:502488942,&quot;blogName&quot;:&quot;qingxu16&quot;,&quot;blogNickName&quot;:&quot;克柔&quot;,&quot;bigAvaImg&quot;:&quot;http://imglf2.ph.126.net/xh37e-UfF30LiyVWRbAAwg==/6631862712607933223.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;个人weibo：@克柔&quot;,&quot;blogCreateTime&quot;:1460364863270,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543426188091,&quot;postModTime&quot;:1543417453592,&quot;postAddTime&quot;:1543417453592,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:744454491,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:352032,&quot;blogId&quot;:502488942,&quot;domainId&quot;:1375862763684,&quot;authName&quot;:&quot;LOFTER时尚达人&quot;,&quot;createTime&quot;:1508727653282,&quot;claimer&quot;:487195110,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1508728392778,&quot;content&quot;:{&quot;gender&quot;:0,&quot;sync&quot;:0,&quot;recommendCount&quot;:7,&quot;likedCount&quot;:1607,&quot;postCount&quot;:39,&quot;followCount&quot;:602,&quot;regTime&quot;:1460364863286,&quot;ext&quot;:&quot;{\&quot;source\&quot;:-2}&quot;},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:502488942,&quot;publicPostCount&quot;:111,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:7826,&quot;likedCount&quot;:3751,&quot;likingCount&quot;:5,&quot;followingCount&quot;:4,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://qingxu16.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=13041601C2C6508B1257CE48CDA796A0.hzayq-lofter28.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=qingxu16.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=502488942</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1543483390670" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="3298" sby="624" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:10 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=140BFEBB174352D962E667AF639075B6.hzabj-lofter-tomcat-3.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/5HpXYIBAcWAg==; expires=Fri, 29-Nov-19 09:23:10 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 53d66e9ddad83e0f2ea9553d9c585c00
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 127
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:513613293,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1440842057759,1370406297616,1370404026995,1370406202794,1442207751226&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdsRank&quot;:&quot;-1,1440842057759,1370406202794,2,1370406297616,1370404026995,1370406130284,1442207751226,1375862763684,1433928321361,1454147603663,1430907486999,1444460589504,1425878709569,1439373392531,1370404026996,1370406175120,1472196069251,1370404026997&quot;,&quot;interestDomainIdSet&quot;:[1440842057759,1442207751226,1370406202794,1370406297616,1370404026995]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;chenchenchen376.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:12,&quot;url&quot;:&quot;http://imglf2.nosdn0.126.net/img/bTlyMzM1WGFDOCtEckhpc3R3M05vMWlJMjJxYzlHRjh6UXN4WWhwRjdKTT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;RealXu&quot;,&quot;customBlogCover&quot;:&quot;http://imglf.nosdn0.126.net/img/eHk5c0JLNDlnWCtNbDBmR0kxK0xPTkI0dXNOZ3g4V3gwRTZRTk5IWk9waDhtd3lLWkFmWVpnPT0.jpg&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:513613293,&quot;blogName&quot;:&quot;chenchenchen376&quot;,&quot;blogNickName&quot;:&quot;忱忱忱&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/eHk5c0JLNDlnWDlNR0pFWDFpMTQ2T084MmtZcVNqN3p3b3JuSUVNOWxVNkNXeG5yRDJBRmd3PT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;什么都不会的阿忱&quot;,&quot;blogCreateTime&quot;:1482886796857,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1541753018622,&quot;postModTime&quot;:1543326479179,&quot;postAddTime&quot;:1543326479179,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:756576420000,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:308036,&quot;blogId&quot;:513613293,&quot;domainId&quot;:1440842057759,&quot;authName&quot;:&quot;LOFTER手帐达人&quot;,&quot;createTime&quot;:1498467242924,&quot;claimer&quot;:513613293,&quot;verifier&quot;:1084312,&quot;updateTime&quot;:1500273427289,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;河南&quot;,&quot;city&quot;:&quot;新乡市&quot;,&quot;reason&quot;:&quot;希望能在lofter的平台上分享手帐，交流手帐&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:1,&quot;recommendCount&quot;:11,&quot;likedCount&quot;:1151,&quot;postCount&quot;:202,&quot;followCount&quot;:177,&quot;regTime&quot;:1482886796870},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:513613293,&quot;publicPostCount&quot;:526,&quot;privatePostCount&quot;:1,&quot;followedCount&quot;:4627,&quot;likedCount&quot;:5657,&quot;likingCount&quot;:610,&quot;followingCount&quot;:32,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://chenchenchen376.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=308E5EEBC1713FB548BC12AADD881BA9.hzabj-lofter-tomcat-1.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=chenchenchen376.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=513613293</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="84" it="0" lt="73" ct="0" ts="1543483390964" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="2622" sby="626" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=B03A63BC8385AA048510B14445A8E732.hzabj-lofter-new2.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/86/XYCBABxAg==; expires=Fri, 29-Nov-19 09:23:11 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 618956569e648d277b73ab0f33aa3de9
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 129
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:527446347,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1370406130284,1433928321361,1370404026995,1370406297616,1425878709569,1370406202794&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1370406130284,1425878709569,1433928321361,1370406202794,1370406297616,1370404026995]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;zhujiuyoudianxian.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:2,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOCtVQWpmbU9TOThlOWR0ZTlXQlU1eWZJdG1jdERmNi9XRT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;Mazily&quot;,&quot;customBlogCover&quot;:&quot;http://imglf5.nosdn0.126.net/img/b2pORnFPODM3LzRDT1hXdTVta3p3T0NRVGdCbEhUSzhHOWczUnAzUFEzb1NvT25QRS80VllnPT0.jpg&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:527446347,&quot;blogName&quot;:&quot;zhujiuyoudianxian&quot;,&quot;blogNickName&quot;:&quot;怎么睡都还是很困&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/b2pORnFPODM3LzRWVEo4M2lRQk0wekNHditnM3Rhc3NzU2pGeUpZaGMrdkQ4eVRmMlQrVTB3PT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;每天都在为我宝掰的美貌流泪罢辽&quot;,&quot;blogCreateTime&quot;:1525061548550,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543302909799,&quot;postModTime&quot;:1543332090524,&quot;postAddTime&quot;:1543332090524,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:915449820000,&quot;novisible&quot;:false,&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:527446347,&quot;publicPostCount&quot;:22,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:65,&quot;likedCount&quot;:285,&quot;likingCount&quot;:10,&quot;followingCount&quot;:16,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://zhujiuyoudianxian.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=140BFEBB174352D962E667AF639075B6.hzabj-lofter-tomcat-3.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=zhujiuyoudianxian.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=527446347</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="95" it="0" lt="95" ct="32" ts="1543483391194" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="3148" sby="622" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=7B340D65EEC0678B4F6D7C6EBD51D993.hzadg-lofter24-backup.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/9FJ3YHBAlaAg==; expires=Fri, 29-Nov-19 09:23:11 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 9c6cc9b24f2349b1cd3191b9fca258b0
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:509682960,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1425878709569,1375862763684,1370406297616,1444460589504,1439373392531,1370404026996,1442207751226,1370406175120,1370404026995,1370406202794,1454147603663,1370404026997&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1442207751226,1425878709569,1370406202794,1439373392531,1370404026996,1375862763684,1370406297616,1370404026997,1370406175120,1370404026995,1454147603663,1444460589504]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;tianxiaorouer.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:14,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOC8zQkRGU0lDYXFCWHNVRzBFbVRrTWxMZXJGMDB5bVFLWT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;木推瓜&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:509682960,&quot;blogName&quot;:&quot;tianxiaorouer&quot;,&quot;blogNickName&quot;:&quot;田小肉儿&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/SmNVcjBVYTM2UXliWkhSL1ZKSndEK0pwbDRoMFdzemlMdEZqSCtMendlSnRVS0RaSFVJUDVRPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;约稿请私信，欢迎画圈朋友勾搭～&quot;,&quot;blogCreateTime&quot;:1473993648644,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1540499061589,&quot;postModTime&quot;:1543412268612,&quot;postAddTime&quot;:1543412268612,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:872382180000,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:405056,&quot;blogId&quot;:509682960,&quot;domainId&quot;:1370406202794,&quot;authName&quot;:&quot;LOFTER插画师&quot;,&quot;createTime&quot;:1505690429740,&quot;claimer&quot;:509682960,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1517537482675,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;天津&quot;,&quot;city&quot;:&quot;天津市&quot;,&quot;reason&quot;:&quot;热爱水彩插画，希望得到lofter支持，可以走更远。&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;田小肉儿&quot;,&quot;name&quot;:&quot;微博/涂鸦王国&quot;}],&quot;sync&quot;:1,&quot;recommendCount&quot;:0,&quot;likedCount&quot;:932,&quot;postCount&quot;:127,&quot;followCount&quot;:224,&quot;regTime&quot;:1473993648653},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;homePageUrl&quot;:&quot;http://tianxiaorouer.lofter.com&quot;,&quot;blogStat&quot;:{&quot;blogId&quot;:509682960,&quot;publicPostCount&quot;:189,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:1623,&quot;likedCount&quot;:1559,&quot;likingCount&quot;:472,&quot;followingCount&quot;:315,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0}},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=B171521E56D684AE9C4CE47064A9D894.hzabj-lofter-tomcat-1.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=tianxiaorouer.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=509682960</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1543483391565" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="3620" sby="616" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=E46A016A8EFE94ECC2ADFD17406D9B35.hzabj-lofter-tomcat-2.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/9FJ3YHBAlmAg==; expires=Fri, 29-Nov-19 09:23:11 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 9ae691cf9112496ffc9334d6cb44ca76
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 119
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:4366572,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1425878709569,1370406297616,1370404026996,1370406202794,1370404026997&quot;,&quot;themeId&quot;:119002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;[{\&quot;type\&quot;:\&quot;group1\&quot;,\&quot;name\&quot;:\&quot;\&quot;,\&quot;value\&quot;:\&quot;内页内容宽度500px#内页内容宽度500px|内页内容宽度600px|内页内容宽度700px|内页内容宽度800px\&quot;}]&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;customPageSeq&quot;:&quot;189656873,189159331,189159268,190046205,203707102,189159269,190067152,190067153,190873105,193061136&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1425878709569,1370406202794,1370404026996,1370406297616,1370404026997]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;akaicomet.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;collectionCount&quot;:1,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:11,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhsRHlKY3dYcDZsSjV2OTRISGFnQkR0K25qcFNUeFRMZz0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;韩一杰&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:4366572,&quot;blogName&quot;:&quot;akaicomet&quot;,&quot;blogNickName&quot;:&quot;┍赤い彗星╃&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/c3FpbDV4L3JKQjlPdldFcmZYMUx4bFM2YVlCTkVTVVJEWEwvcnFoTUdNanZGbXFQK2JFeWlBPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;&quot;,&quot;blogCreateTime&quot;:1405241946593,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543324855216,&quot;postModTime&quot;:1543324513236,&quot;postAddTime&quot;:1543307265429,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:true,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:true,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:405006,&quot;blogId&quot;:4366572,&quot;domainId&quot;:1370404026996,&quot;authName&quot;:&quot;LOFTER风光摄影师&quot;,&quot;createTime&quot;:1512715034880,&quot;claimer&quot;:4366572,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1517537456330,&quot;content&quot;:{&quot;gender&quot;:1,&quot;pro&quot;:&quot;上海&quot;,&quot;city&quot;:&quot;上海市&quot;,&quot;reason&quot;:&quot;&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:73,&quot;likedCount&quot;:18105,&quot;postCount&quot;:291,&quot;followCount&quot;:6148,&quot;regTime&quot;:1405241946601},&quot;flag&quot;:0},{&quot;id&quot;:313003,&quot;blogId&quot;:4366572,&quot;domainId&quot;:1370406297616,&quot;authName&quot;:&quot;LOFTER旅行家&quot;,&quot;createTime&quot;:1494031722951,&quot;claimer&quot;:4366572,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1501576922665,&quot;content&quot;:{&quot;gender&quot;:1,&quot;pro&quot;:&quot;上海&quot;,&quot;city&quot;:&quot;上海市&quot;,&quot;reason&quot;:&quot;热爱旅行，途中经常拍摄风光，建筑，人文等图片。&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:67,&quot;likedCount&quot;:13328,&quot;postCount&quot;:306,&quot;followCount&quot;:3056,&quot;regTime&quot;:1405241946601},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:4366572,&quot;publicPostCount&quot;:293,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:14835,&quot;likedCount&quot;:30709,&quot;likingCount&quot;:2668,&quot;followingCount&quot;:410,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://akaicomet.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=7B340D65EEC0678B4F6D7C6EBD51D993.hzadg-lofter24-backup.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=akaicomet.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=4366572</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="101" it="0" lt="101" ct="32" ts="1543483391565" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="3179" sby="612" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=6FDF5E599082337B71926D34A2CCCC5A.hzabj-lofter-tomcat-7.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/9AU3YBA/GMAg==; expires=Fri, 29-Nov-19 09:23:11 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: bad17df72b0b651e16d3380f500f4e24
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 119
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:687383,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;msgTitle&quot;:&quot;信兒&quot;,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1425878709569,1370406297616,1370404026996,1370406202794,1370406175120&quot;,&quot;themeId&quot;:110002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:20,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;customPageSeq&quot;:&quot;1031022,1031023,1031024,1069035,1035017&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:9,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1425878709569,1370406202794,1370404026996,1370406297616,1370406175120]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;david-xiao.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:14,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOC8zQkRGU0lDYXFCWHNVRzBFbVRrTWxMZXJGMDB5bVFLWT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;木推瓜&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:687383,&quot;blogName&quot;:&quot;david-xiao&quot;,&quot;blogNickName&quot;:&quot;大维&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/ZXNaNzNOOTdBYk1selMvZHZLZUw2MHZYaHJMdEtZQ0lnOWcxTVBFK3lVak5EUjdoL00zMW9BPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;旅行攝影師◎撰稿人\r\n©所有圖片均系原創，未經許可不得以任何方式使用&quot;,&quot;blogCreateTime&quot;:1336379112513,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543298781736,&quot;postModTime&quot;:1543296583610,&quot;postAddTime&quot;:1543280226999,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:true,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:true,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:559001,&quot;blogId&quot;:687383,&quot;domainId&quot;:1370404026996,&quot;authName&quot;:&quot;LOFTER风光摄影师&quot;,&quot;createTime&quot;:1535497596276,&quot;claimer&quot;:687383,&quot;verifier&quot;:524644248,&quot;updateTime&quot;:1536229077585,&quot;content&quot;:{&quot;gender&quot;:1,&quot;pro&quot;:&quot;广东&quot;,&quot;city&quot;:&quot;广州市&quot;,&quot;reason&quot;:&quot;&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:1,&quot;recommendCount&quot;:156,&quot;likedCount&quot;:98080,&quot;postCount&quot;:249,&quot;followCount&quot;:193176,&quot;regTime&quot;:1336379112521},&quot;flag&quot;:0},{&quot;id&quot;:18001,&quot;blogId&quot;:687383,&quot;domainId&quot;:1370406297616,&quot;authName&quot;:&quot;LOFTER旅行家&quot;,&quot;createTime&quot;:1468206569504,&quot;claimer&quot;:0,&quot;verifier&quot;:0,&quot;updateTime&quot;:0,&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:687383,&quot;publicPostCount&quot;:258,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:195798,&quot;likedCount&quot;:104201,&quot;likingCount&quot;:4940,&quot;followingCount&quot;:907,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://david-xiao.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=B03A63BC8385AA048510B14445A8E732.hzabj-lofter-new2.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=david-xiao.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=687383</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1543483391873" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="2687" sby="617" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=4D1FF479CEA1AA1DCFCE06C5142AE489.hzabj-lofter-new10.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/9KG3YNBA1+Ag==; expires=Fri, 29-Nov-19 09:23:11 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: fc8fe80278f1167fcc63e2b6244d54de
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 120
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:526081698,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1370406130284,1454147603663,1370404026995,1370406297616,1430907486999,1444460589504,1425878709569,1370404026996,1370406175120,1370406202794,1442207751226&quot;,&quot;themeId&quot;:126001,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1370406130284,1430907486999,1442207751226,1425878709569,1370406202794,1370404026996,1370406297616,1370404026995,1370406175120,1454147603663,1444460589504]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;love7796.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;collectionCount&quot;:10,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:9,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODlRYkFCYXlzVGNVdW94dHBOV25YL0JFUmhjdUwxMTVyWT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;陈大军&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:526081698,&quot;blogName&quot;:&quot;love7796&quot;,&quot;blogNickName&quot;:&quot;江枫渔火&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/N2ZvMzg5NzVpSTJRejhMKzd1OVJEMFhoOGNYRUlMK2ZSR2p1QW8yU29iTzJMZVNtakEvSVRRPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;我叫霜云 很高兴认识你\n❤️❤️❤️❤️❤️❤️&quot;,&quot;blogCreateTime&quot;:1521350383038,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543443316717,&quot;postModTime&quot;:1543481565514,&quot;postAddTime&quot;:1543478628063,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:526081698,&quot;publicPostCount&quot;:91,&quot;privatePostCount&quot;:3,&quot;followedCount&quot;:252,&quot;likedCount&quot;:4423,&quot;likingCount&quot;:6333,&quot;followingCount&quot;:147,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://love7796.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=E46A016A8EFE94ECC2ADFD17406D9B35.hzabj-lofter-tomcat-2.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=love7796.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=526081698</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="73" it="0" lt="72" ct="0" ts="1543483391864" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="3300" sby="619" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=C1C9C689349A266915059A46A1D3330A.hzabj-lofter-new13.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/r/9AU3YBA/GYAg==; expires=Fri, 29-Nov-19 09:23:11 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 6b51080d408c85de0589580a414586ba
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 122
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:509353143,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1444460589504,1370406175120,1370406202794,1370404026997&quot;,&quot;themeId&quot;:120001,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;customPageSeq&quot;:&quot;212733124,212733120,212733121,212733122,212733123&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:9,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1370406202794,1370404026997,1370406175120,1444460589504]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;xisangsang.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:1,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhUeXBoVzByOGRGV3ZsOFFmL29oQ3hRa3N3REhFc29jVT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;LOFTER&quot;,&quot;customBlogCover&quot;:&quot;http://imglf4.nosdn0.126.net/img/WFlIbWVrRGhtUWpxTWwzYkIyaHNWQjVXeDhMTzFoZEVQemQxV1pidWdUQVRzMVlXRmIvejRnPT0.jpeg&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:509353143,&quot;blogName&quot;:&quot;xisangsang&quot;,&quot;blogNickName&quot;:&quot;西桑桑&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/WFlIbWVrRGhtUWpsdWd0dkVMNjdTejROM0pqK0hmWlkrdHhNV2FDL2x2bVFvNVd5a1FJRFh3PT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;12月开始接新๑企鹅：2956978435๑主接排版，可接周边、宣图、（封设暂不约了）๑约稿详情请翻18年1月份文章&quot;,&quot;blogCreateTime&quot;:1473160448104,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1541816325307,&quot;postModTime&quot;:1543239520830,&quot;postAddTime&quot;:1543239520830,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:true,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:394047,&quot;blogId&quot;:509353143,&quot;domainId&quot;:1370404026997,&quot;authName&quot;:&quot;LOFTER平面设计师&quot;,&quot;createTime&quot;:1513737649015,&quot;claimer&quot;:509353143,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1516258206022,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;浙江&quot;,&quot;city&quot;:&quot;宁波市&quot;,&quot;reason&quot;:&quot;虽然并不是设计专业，但因为热爱设计不断学习，平时也接一些设计稿子锻炼水平，希望通过不断的练习能有进步&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:10,&quot;likedCount&quot;:1235,&quot;postCount&quot;:157,&quot;followCount&quot;:399,&quot;regTime&quot;:1473160448115},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;homePageUrl&quot;:&quot;http://xisangsang.lofter.com&quot;,&quot;blogStat&quot;:{&quot;blogId&quot;:509353143,&quot;publicPostCount&quot;:260,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:2669,&quot;likedCount&quot;:1985,&quot;likingCount&quot;:47,&quot;followingCount&quot;:24,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0}},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=6FDF5E599082337B71926D34A2CCCC5A.hzabj-lofter-tomcat-7.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=xisangsang.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=509353143</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="76" it="0" lt="76" ct="0" ts="1543483392142" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="2601" sby="618" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:12 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=60D1CED65FFC425C3F8267DBDAE40F7B.hzabj-lofter-tomcat-1.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/sABAU3YBA/GvAg==; expires=Fri, 29-Nov-19 09:23:12 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: c975162dfae83b34308ca5d2a31ccd76
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 124
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:523169751,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1370404026995,1433928321361,1425878709569,1375862763684,1370404026997&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1425878709569,1433928321361,1375862763684,1370404026997,1370404026995]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;mimiyaner688.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:523169751,&quot;blogName&quot;:&quot;mimiyaner688&quot;,&quot;blogNickName&quot;:&quot;Joke_眯眯眼儿&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/SzhRS1hqMVRpZzc3MjdCUVZYUy8reG9mbkVIQ2NldWpVd2cxOWdCSk5oSitvSU42VytIazFRPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;全平台同名 比芯❤️&quot;,&quot;blogCreateTime&quot;:1512408040659,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543201046811,&quot;postModTime&quot;:1543416115027,&quot;postAddTime&quot;:1543416115027,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:386016,&quot;blogId&quot;:523169751,&quot;domainId&quot;:1433928321361,&quot;authName&quot;:&quot;LOFTER美妆达人&quot;,&quot;createTime&quot;:1513650987572,&quot;claimer&quot;:487195169,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1514273462362,&quot;content&quot;:{&quot;gender&quot;:0,&quot;sync&quot;:0,&quot;recommendCount&quot;:3,&quot;likedCount&quot;:36,&quot;postCount&quot;:13,&quot;followCount&quot;:3,&quot;regTime&quot;:1512408040682,&quot;ext&quot;:&quot;{\&quot;source\&quot;:-2}&quot;},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:523169751,&quot;publicPostCount&quot;:28,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:1059,&quot;likedCount&quot;:670,&quot;likingCount&quot;:1,&quot;followingCount&quot;:12,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://mimiyaner688.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=C1C9C689349A266915059A46A1D3330A.hzabj-lofter-new13.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=mimiyaner688.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=523169751</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="96" it="0" lt="96" ct="0" ts="1543483392266" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="2855" sby="612" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:12 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=ED4A9B9485FDAB7D409C484FDC0B9771.hzadg-lofter25-backup.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/sABKG3YNBA2WAg==; expires=Fri, 29-Nov-19 09:23:12 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: d96300d66c7ab7ae754c3fad59861643
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 118
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:4315152,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1375871332811&quot;,&quot;themeId&quot;:121002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1375871332811]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;1011lulu.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:1,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhUeXBoVzByOGRGV3ZsOFFmL29oQ3hRa3N3REhFc29jVT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;LOFTER&quot;,&quot;customBlogCover&quot;:&quot;http://imglf5.nosdn0.126.net/img/STlMSHN1VGFTNnpkekFnYnZPWVducnFrS3NQQmwya3l5ZU03dXIyQ1FJamZGdG1ybTJPMEZRPT0.jpeg&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:4315152,&quot;blogName&quot;:&quot;1011lulu&quot;,&quot;blogNickName&quot;:&quot;西窗&quot;,&quot;bigAvaImg&quot;:&quot;http://imglf1.ph.126.net/Y2IChEZB2ItmBrxIH3NBrQ==/6631381126518230650.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;吃掉黑夜的漫长&quot;,&quot;blogCreateTime&quot;:1404563120633,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543437805090,&quot;postModTime&quot;:1543405934968,&quot;postAddTime&quot;:1543405934968,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:352050,&quot;blogId&quot;:4315152,&quot;domainId&quot;:1370404026995,&quot;authName&quot;:&quot;LOFTER美食家&quot;,&quot;createTime&quot;:1503885238712,&quot;claimer&quot;:4315152,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1508828177432,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;福建&quot;,&quot;city&quot;:&quot;福州市&quot;,&quot;reason&quot;:&quot;4年坚持早餐不重样&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:0,&quot;recommendCount&quot;:18,&quot;likedCount&quot;:2137,&quot;postCount&quot;:285,&quot;followCount&quot;:796,&quot;regTime&quot;:1404563120646},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;homePageUrl&quot;:&quot;http://1011lulu.lofter.com&quot;,&quot;blogStat&quot;:{&quot;blogId&quot;:4315152,&quot;publicPostCount&quot;:657,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:6424,&quot;likedCount&quot;:7113,&quot;likingCount&quot;:461,&quot;followingCount&quot;:230,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0}},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=4D1FF479CEA1AA1DCFCE06C5142AE489.hzabj-lofter-new10.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=1011lulu.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=4315152</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="0" ts="1543483392498" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="2725" sby="624" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:12 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=AD16AAB07ECDDB58B0DBB4818C36D5AE.hzabj-lofter-new5.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/sABAU3YBA/G/Ag==; expires=Fri, 29-Nov-19 09:23:12 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: 4bdf91e90c399e69d92d55b42664e232
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 127
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:527747347,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;contributePostSettings&quot;:&quot;{}&quot;,&quot;interestDomainIds&quot;:&quot;1370406297616,1370406202794,1440842057759,1375862763684,1370406130284,1370406175120&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;customAppearances&quot;:&quot;&quot;,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:0,\&quot;showFans\&quot;:0,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1440842057759,1370406130284,1370406202794,1370406297616,1375862763684,1370406175120]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;lizafternoontea.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;collectionCount&quot;:3,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:0,&quot;blogcover&quot;:{&quot;id&quot;:1,&quot;url&quot;:&quot;http://imglf0.nosdn0.126.net/img/bTlyMzM1WGFDODhUeXBoVzByOGRGV3ZsOFFmL29oQ3hRa3N3REhFc29jVT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;LOFTER&quot;,&quot;customBlogCover&quot;:&quot;http://imglf6.nosdn0.126.net/img/OEh0QnBXY3JaWVVWczUrRXY1TmsyaWdPUXlWRDhLYitOT2hlQVdicWZPekpDLzVCUzNuVi93PT0.jpeg&quot;},&quot;showFollow&quot;:0,&quot;blogInfo&quot;:{&quot;blogId&quot;:527747347,&quot;blogName&quot;:&quot;lizafternoontea&quot;,&quot;blogNickName&quot;:&quot;Liz Wu 奔跑的栗子&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/OEh0QnBXY3JaWVhxR2RqVDhwNCsvelErcDJNQ1ltUFlKd1FZdEJMTWtMOWJnZTlXejZMdjFBPT0.jpg?imageView&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;Better to remain silent and be thought a fool, than to speak and remove all doubt.&quot;,&quot;blogCreateTime&quot;:1525850875798,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543121087432,&quot;postModTime&quot;:1543473061124,&quot;postAddTime&quot;:1543473061124,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:3,&quot;birthday&quot;:0,&quot;novisible&quot;:false,&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:527747347,&quot;publicPostCount&quot;:91,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:13,&quot;likedCount&quot;:113,&quot;likingCount&quot;:199,&quot;followingCount&quot;:90,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://lizafternoontea.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=60D1CED65FFC425C3F8267DBDAE40F7B.hzabj-lofter-tomcat-1.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=lizafternoontea.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=527747347</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="60" it="0" lt="59" ct="0" ts="1543483392605" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="2951" sby="617" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:12 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=80195DC63AF8F3A41D0ADF942D327869.hzabj-lofter-tomcat-1.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/sAA/Z3YEBA71Ag==; expires=Fri, 29-Nov-19 09:23:12 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: d65b0ba04ff366f1a26c292ec5bf6bd7
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 120
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:502488942,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1375862763684,1440842057759&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdsRank&quot;:&quot;1375862763684,1440842057759,1425878709569,1430907486999,1433928321361,1370406130284,1370404026996,1370406297616,1444460589504,1370406175120,1370404026995,1442207751226,1370406202794,1454147603663,1439373392531&quot;,&quot;interestDomainIdSet&quot;:[1440842057759,1375862763684]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;qingxu16.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:13,&quot;url&quot;:&quot;http://imglf2.nosdn0.126.net/img/bTlyMzM1WGFDODlOV2FGUFZSa016TGhaOU5PVEZYaFhkRHJPTjdlRWNoYz0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;vind&quot;,&quot;customBlogCover&quot;:&quot;http://imglf0.ph.126.net/LAzsX4Dul9fXvRqWw6HPcQ==/1993687260144539169.jpg&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:502488942,&quot;blogName&quot;:&quot;qingxu16&quot;,&quot;blogNickName&quot;:&quot;克柔&quot;,&quot;bigAvaImg&quot;:&quot;http://imglf2.ph.126.net/xh37e-UfF30LiyVWRbAAwg==/6631862712607933223.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;个人weibo：@克柔&quot;,&quot;blogCreateTime&quot;:1460364863270,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543426188091,&quot;postModTime&quot;:1543417453592,&quot;postAddTime&quot;:1543417453592,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:744454491,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:352032,&quot;blogId&quot;:502488942,&quot;domainId&quot;:1375862763684,&quot;authName&quot;:&quot;LOFTER时尚达人&quot;,&quot;createTime&quot;:1508727653282,&quot;claimer&quot;:487195110,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1508728392778,&quot;content&quot;:{&quot;gender&quot;:0,&quot;sync&quot;:0,&quot;recommendCount&quot;:7,&quot;likedCount&quot;:1607,&quot;postCount&quot;:39,&quot;followCount&quot;:602,&quot;regTime&quot;:1460364863286,&quot;ext&quot;:&quot;{\&quot;source\&quot;:-2}&quot;},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:502488942,&quot;publicPostCount&quot;:111,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:7826,&quot;likedCount&quot;:3751,&quot;likingCount&quot;:5,&quot;followingCount&quot;:4,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://qingxu16.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=ED4A9B9485FDAB7D409C484FDC0B9771.hzadg-lofter25-backup.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=qingxu16.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=502488942</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1543483392749" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="3297" sby="620" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:12 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=CA6480B9172DAE4711FAF4377CDCB39B.hzayq-lofter72.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/sABAU3YBA/HPAg==; expires=Fri, 29-Nov-19 09:23:12 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: ed1aea09c0d72e6bc0c8ae88f29edecf
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 127
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:513613293,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1440842057759,1370406297616,1370404026995,1370406202794,1442207751226&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:0,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdsRank&quot;:&quot;-1,1440842057759,1370406202794,2,1370406297616,1370404026995,1370406130284,1442207751226,1375862763684,1433928321361,1454147603663,1430907486999,1444460589504,1425878709569,1439373392531,1370404026996,1370406175120,1472196069251,1370404026997&quot;,&quot;interestDomainIdSet&quot;:[1440842057759,1442207751226,1370406202794,1370406297616,1370404026995]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;chenchenchen376.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:12,&quot;url&quot;:&quot;http://imglf2.nosdn0.126.net/img/bTlyMzM1WGFDOCtEckhpc3R3M05vMWlJMjJxYzlHRjh6UXN4WWhwRjdKTT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;RealXu&quot;,&quot;customBlogCover&quot;:&quot;http://imglf.nosdn0.126.net/img/eHk5c0JLNDlnWCtNbDBmR0kxK0xPTkI0dXNOZ3g4V3gwRTZRTk5IWk9waDhtd3lLWkFmWVpnPT0.jpg&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:513613293,&quot;blogName&quot;:&quot;chenchenchen376&quot;,&quot;blogNickName&quot;:&quot;忱忱忱&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/eHk5c0JLNDlnWDlNR0pFWDFpMTQ2T084MmtZcVNqN3p3b3JuSUVNOWxVNkNXeG5yRDJBRmd3PT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;什么都不会的阿忱&quot;,&quot;blogCreateTime&quot;:1482886796857,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1541753018622,&quot;postModTime&quot;:1543326479179,&quot;postAddTime&quot;:1543326479179,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:756576420000,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:308036,&quot;blogId&quot;:513613293,&quot;domainId&quot;:1440842057759,&quot;authName&quot;:&quot;LOFTER手帐达人&quot;,&quot;createTime&quot;:1498467242924,&quot;claimer&quot;:513613293,&quot;verifier&quot;:1084312,&quot;updateTime&quot;:1500273427289,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;河南&quot;,&quot;city&quot;:&quot;新乡市&quot;,&quot;reason&quot;:&quot;希望能在lofter的平台上分享手帐，交流手帐&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;}],&quot;sync&quot;:1,&quot;recommendCount&quot;:11,&quot;likedCount&quot;:1151,&quot;postCount&quot;:202,&quot;followCount&quot;:177,&quot;regTime&quot;:1482886796870},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:513613293,&quot;publicPostCount&quot;:526,&quot;privatePostCount&quot;:1,&quot;followedCount&quot;:4627,&quot;likedCount&quot;:5657,&quot;likingCount&quot;:610,&quot;followingCount&quot;:32,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://chenchenchen376.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:0,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=AD16AAB07ECDDB58B0DBB4818C36D5AE.hzabj-lofter-new5.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=chenchenchen376.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=513613293</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="63" ct="0" ts="1543483392998" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-2" dt="text" by="2626" sby="619" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:13 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=48EE88004B0DC958F514D403FEC8B9FE.hzabj-lofter-tomcat-2.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/sAFAU3YBA/HfAg==; expires=Fri, 29-Nov-19 09:23:13 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: cde2ea118902e3527610f940a2a747c2
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 129
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:527446347,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1370406130284,1433928321361,1370404026995,1370406297616,1425878709569,1370406202794&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1370406130284,1425878709569,1433928321361,1370406202794,1370406297616,1370404026995]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;zhujiuyoudianxian.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:2,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOCtVQWpmbU9TOThlOWR0ZTlXQlU1eWZJdG1jdERmNi9XRT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;Mazily&quot;,&quot;customBlogCover&quot;:&quot;http://imglf5.nosdn0.126.net/img/b2pORnFPODM3LzRDT1hXdTVta3p3T0NRVGdCbEhUSzhHOWczUnAzUFEzb1NvT25QRS80VllnPT0.jpg&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:527446347,&quot;blogName&quot;:&quot;zhujiuyoudianxian&quot;,&quot;blogNickName&quot;:&quot;怎么睡都还是很困&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/b2pORnFPODM3LzRWVEo4M2lRQk0wekNHditnM3Rhc3NzU2pGeUpZaGMrdkQ4eVRmMlQrVTB3PT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;每天都在为我宝掰的美貌流泪罢辽&quot;,&quot;blogCreateTime&quot;:1525061548550,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1543302909799,&quot;postModTime&quot;:1543332090524,&quot;postAddTime&quot;:1543332090524,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:915449820000,&quot;novisible&quot;:false,&quot;isOriginalAuthor&quot;:false,&quot;blogStat&quot;:{&quot;blogId&quot;:527446347,&quot;publicPostCount&quot;:22,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:65,&quot;likedCount&quot;:285,&quot;likingCount&quot;:10,&quot;followingCount&quot;:16,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0},&quot;homePageUrl&quot;:&quot;http://zhujiuyoudianxian.lofter.com&quot;},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=CA6480B9172DAE4711FAF4377CDCB39B.hzayq-lofter72.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=zhujiuyoudianxian.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=527446347</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+<httpSample t="85" it="0" lt="78" ct="0" ts="1543483393031" s="false" lb="个人主页" rc="200" rm="OK" tn="lofterThreadGroup 1-1" dt="text" by="3148" sby="622" sc="1" ec="1" ng="2" na="2" hn="jc.local">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Failed that JSONPath not exists: $.meta.status</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 29 Nov 2018 09:23:13 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: NTESwebSI=7E0174F759E6710F133759F05B59EC6E.hzadg-lofter24-backup.server.163.org-8010; Path=/; HttpOnly
+Set-Cookie: usertrack=ezq0pFv/sAFbD3YeBAcEAg==; expires=Fri, 29-Nov-19 09:23:13 GMT; domain=lofter.com; path=/
+P3P: policyref=&quot;/w3c/p3p.xml&quot;, CP=&quot;CUR ADM OUR NOR STA NID&quot;
+Server: NetEase CC Defender 1.0 (NCD/1.0)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+URSMobToken: cb5f315298c61c044ed6fd191c02e574
+URSMobID: 835BBEAA81DCC2D280A9DF1EA0B67A3A383D6252A07805672E373286958B5E09FBF1873DD5B4233517AE540D499AA447
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Host: api.lofter.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{&quot;status&quot;:200,&quot;msg&quot;:&quot;&quot;},&quot;response&quot;:{&quot;specialfollowing&quot;:false,&quot;blogsetting&quot;:{&quot;blogId&quot;:509682960,&quot;securityRank&quot;:0,&quot;commentRank&quot;:10,&quot;msgRank&quot;:1,&quot;contributePostRank&quot;:0,&quot;interestDomainIds&quot;:&quot;1425878709569,1375862763684,1370406297616,1444460589504,1439373392531,1370404026996,1442207751226,1370406175120,1370404026995,1370406202794,1454147603663,1370404026997&quot;,&quot;themeId&quot;:29002,&quot;themeUserId&quot;:-2,&quot;postCountPerPage&quot;:10,&quot;archiveSetting&quot;:&quot;{\&quot;showLike\&quot;:1,\&quot;showShare\&quot;:1,\&quot;showFollow\&quot;:1,\&quot;showFans\&quot;:1,\&quot;showSubBlog\&quot;:1,\&quot;exclSubBlogs\&quot;:[],\&quot;showMember\&quot;:1}&quot;,&quot;passAccessOn&quot;:false,&quot;noSearch&quot;:false,&quot;phoneThemeId&quot;:0,&quot;locationFlag&quot;:0,&quot;interestDomainIdSet&quot;:[1442207751226,1425878709569,1370406202794,1439373392531,1370404026996,1375862763684,1370406297616,1370404026997,1370406175120,1370404026995,1454147603663,1444460589504]},&quot;isBlackedUser&quot;:false,&quot;isSelfBlog&quot;:false,&quot;isBlackBlog&quot;:false,&quot;isMember&quot;:false,&quot;showMember&quot;:1,&quot;blogLink&quot;:&quot;tianxiaorouer.lofter.com&quot;,&quot;exclSubBlogs&quot;:[],&quot;following&quot;:false,&quot;isPasswordAccessOn&quot;:false,&quot;showFans&quot;:1,&quot;blogcover&quot;:{&quot;id&quot;:14,&quot;url&quot;:&quot;http://imglf1.nosdn0.126.net/img/bTlyMzM1WGFDOC8zQkRGU0lDYXFCWHNVRzBFbVRrTWxMZXJGMDB5bVFLWT0.jpg&quot;,&quot;authorId&quot;:0,&quot;authorName&quot;:&quot;木推瓜&quot;},&quot;showFollow&quot;:1,&quot;blogInfo&quot;:{&quot;blogId&quot;:509682960,&quot;blogName&quot;:&quot;tianxiaorouer&quot;,&quot;blogNickName&quot;:&quot;田小肉儿&quot;,&quot;bigAvaImg&quot;:&quot;http://avaimg.nosdn0.126.net/img/SmNVcjBVYTM2UXliWkhSL1ZKSndEK0pwbDRoMFdzemlMdEZqSCtMendlSnRVS0RaSFVJUDVRPT0.jpg&quot;,&quot;keyTag&quot;:&quot;&quot;,&quot;selfIntro&quot;:&quot;约稿请私信，欢迎画圈朋友勾搭～&quot;,&quot;blogCreateTime&quot;:1473993648644,&quot;avaUpdateTime&quot;:0,&quot;rssFileId&quot;:0,&quot;rssGenTime&quot;:1540499061589,&quot;postModTime&quot;:1543412268612,&quot;postAddTime&quot;:1543412268612,&quot;commentRank&quot;:10,&quot;imageProtected&quot;:false,&quot;imageStamp&quot;:false,&quot;imageDigitStamp&quot;:false,&quot;gendar&quot;:2,&quot;birthday&quot;:872382180000,&quot;novisible&quot;:false,&quot;auths&quot;:[{&quot;id&quot;:405056,&quot;blogId&quot;:509682960,&quot;domainId&quot;:1370406202794,&quot;authName&quot;:&quot;LOFTER插画师&quot;,&quot;createTime&quot;:1505690429740,&quot;claimer&quot;:509682960,&quot;verifier&quot;:13005,&quot;updateTime&quot;:1517537482675,&quot;content&quot;:{&quot;gender&quot;:2,&quot;pro&quot;:&quot;天津&quot;,&quot;city&quot;:&quot;天津市&quot;,&quot;reason&quot;:&quot;热爱水彩插画，希望得到lofter支持，可以走更远。&quot;,&quot;communitys&quot;:[{&quot;id&quot;:&quot;田小肉儿&quot;,&quot;name&quot;:&quot;微博/涂鸦王国&quot;}],&quot;sync&quot;:1,&quot;recommendCount&quot;:0,&quot;likedCount&quot;:932,&quot;postCount&quot;:127,&quot;followCount&quot;:224,&quot;regTime&quot;:1473993648653},&quot;flag&quot;:0}],&quot;isOriginalAuthor&quot;:false,&quot;homePageUrl&quot;:&quot;http://tianxiaorouer.lofter.com&quot;,&quot;blogStat&quot;:{&quot;blogId&quot;:509682960,&quot;publicPostCount&quot;:189,&quot;privatePostCount&quot;:0,&quot;followedCount&quot;:1623,&quot;likedCount&quot;:1559,&quot;likingCount&quot;:472,&quot;followingCount&quot;:315,&quot;memberCount&quot;:1,&quot;uappInstallCount&quot;:0}},&quot;showShare&quot;:1,&quot;isShieldRecom&quot;:0,&quot;showLike&quot;:1,&quot;showSubBlog&quot;:1,&quot;mainblog&quot;:true}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">NTESwebSI=80195DC63AF8F3A41D0ADF942D327869.hzabj-lofter-tomcat-1.server.163.org-8010</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">blogdomain=tianxiaorouer.lofter.com&amp;checkpwd=1&amp;method=getBlogInfoDetail&amp;needgetpoststat=1&amp;returnData=1&amp;targetblogid=509682960</queryString>
+  <java.net.URL>http://api.lofter.com/v1.1/publicPostsWithStatus.api?product=lofter-iphone-6.0.8/</java.net.URL>
+</httpSample>
+
+</testResults>
